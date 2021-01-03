@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 4 - Factory Pattern in
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern in Testing", "src\Factory\Demo 4 - Factory Pattern in Testing\Factory in Testing\Factory Pattern in Testing.csproj", "{CA510458-F3B7-4141-8EC2-9D189B1E6450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "src\Factory\Demo 4 - Factory Pattern in Testing\Tests\Tests.csproj", "{DA109CC4-B738-4B5A-B1F5-004788448296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "src\Factory\Demo 4 - Factory Pattern in Testing\Tests\Tests.csproj", "{DA109CC4-B738-4B5A-B1F5-004788448296}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 5 - Adding a Factory Provider", "Demo 5 - Adding a Factory Provider", "{B34D1BC5-93D0-4299-8D6F-013D87B09EA6}"
 EndProject
@@ -34,6 +34,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 0 - Initial Project", "Demo 0 - Initial Project", "{7FC3E0A4-8318-4F39-BDF0-493BBE3EA26B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern First Look", "src\Factory\Demo 0 - Initial Project\Factory Pattern First Look\Factory Pattern First Look.csproj", "{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{6AD42243-EA24-4060-B3E4-967001A4076B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "src\Singleton\SingletonPattern.csproj", "{6E42A737-80B4-43B7-93EC-93289E56FB64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,10 @@ Global
 		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E42A737-80B4-43B7-93EC-93289E56FB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E42A737-80B4-43B7-93EC-93289E56FB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E42A737-80B4-43B7-93EC-93289E56FB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E42A737-80B4-43B7-93EC-93289E56FB64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +101,8 @@ Global
 		{178CAF29-7035-4811-8509-06F4DA3FF189} = {B34D1BC5-93D0-4299-8D6F-013D87B09EA6}
 		{7FC3E0A4-8318-4F39-BDF0-493BBE3EA26B} = {BB949CD8-5C9C-4040-BCB4-2D1EFC27EC8F}
 		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881} = {7FC3E0A4-8318-4F39-BDF0-493BBE3EA26B}
+		{6AD42243-EA24-4060-B3E4-967001A4076B} = {0F8ABE3F-172E-4314-8DCE-DF1D95A9C83F}
+		{6E42A737-80B4-43B7-93EC-93289E56FB64} = {6AD42243-EA24-4060-B3E4-967001A4076B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04196470-E3FA-483A-8C35-E2716555E025}
