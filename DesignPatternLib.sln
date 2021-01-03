@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adding a Factory Provider",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "src\Factory\Demo 5 - Adding a Factory Provider\Tests\Tests.csproj", "{178CAF29-7035-4811-8509-06F4DA3FF189}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 0 - Initial Project", "Demo 0 - Initial Project", "{7FC3E0A4-8318-4F39-BDF0-493BBE3EA26B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern First Look", "src\Factory\Demo 0 - Initial Project\Factory Pattern First Look\Factory Pattern First Look.csproj", "{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,10 @@ Global
 		{178CAF29-7035-4811-8509-06F4DA3FF189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{178CAF29-7035-4811-8509-06F4DA3FF189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{178CAF29-7035-4811-8509-06F4DA3FF189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +91,8 @@ Global
 		{B34D1BC5-93D0-4299-8D6F-013D87B09EA6} = {BB949CD8-5C9C-4040-BCB4-2D1EFC27EC8F}
 		{0D129A1A-727B-4D23-8519-29C8366BE6C6} = {B34D1BC5-93D0-4299-8D6F-013D87B09EA6}
 		{178CAF29-7035-4811-8509-06F4DA3FF189} = {B34D1BC5-93D0-4299-8D6F-013D87B09EA6}
+		{7FC3E0A4-8318-4F39-BDF0-493BBE3EA26B} = {BB949CD8-5C9C-4040-BCB4-2D1EFC27EC8F}
+		{0C192F4F-79D6-481D-AA5A-AD9B9A0E4881} = {7FC3E0A4-8318-4F39-BDF0-493BBE3EA26B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04196470-E3FA-483A-8C35-E2716555E025}
